@@ -34,6 +34,14 @@
     z-index: 1001;     /* above navbar image */
 }
 
+.navBarAboutText {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    color: white;
+    z-index: 1001;     /* above navbar image */
+    font-size: xx-small;
+}
 
 .aboutText{
     margin-top: 100px;
