@@ -1,21 +1,3 @@
-/* .GameImg{
-    width: 200px;
-    height: auto;
-} */
-
-/* .navBar{
-    height: 70px;
-    width:200%;
-    position: fixed;
-    top: 0%;
-    left: -10%;
-}
-
-.navBarText{
-    position:fixed;
-    top: -1%;
-    color: white;
-} */
 
 .navBar {
     position: fixed;   /* keeps it at the top */
@@ -74,44 +56,6 @@
 
 
 
-/* 
-.gameCard{
-    position: relative;
-    display: inline-block;
-    margin: 20px;
-}
-
-.GameImg{
-    width: 200px;
-    transition: transform 0.3s ease;
-}
-
-.gameCard:Hover .GameImg{
-    transform: scale(1.2);
-}
-
-.gameInfo{
-    position: absolute;
-    top: 50%;
-    left: 110%;
-    transform: translateY(-50%);
-    width:180px;
-
-    background: rgba(0,0,0,0.8);
-    color: white;
-    padding: 10px;
-    border-radius: 8px;
-
-    opacity:0;
-    pointer-events: none;
-    transition: opacity 0.3s ease, left 0.3s ease;
-}
-
-.gameCard:hover .gameInfo{
-    opacity:1;
-    left:120%;
-    z-index: 2;
-} */
 
 
 
@@ -125,6 +69,7 @@
 .GameImg{
     width: 180px;
     transition: transform 0.3s ease;
+    border-radius: 15px;
 }
 
 .gameCard:Hover .GameImg{
@@ -176,4 +121,100 @@
     position: relative;   
     left: -10%;
     margin-top: 35px;
+}
+
+
+
+
+
+.topicDivider{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
+
+
+.topic {
+    position: relative;      
+    height: 300px;
+    width: 350px;
+    border-radius: 45px;
+    overflow: hidden;        
+    cursor: pointer;         
+    transition: transform 0.3s ease;
+
+    margin: 20px;
+}
+
+.topic:hover {
+    transform: scale(1.1);
+}
+
+.topicImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       
+    border-radius: 45px;     
+}
+
+.topicText {
+    position: absolute;      
+    top: 55%;                
+    left: 50%;               /* center in parent*/
+    transform: translate(-50%, -50%); 
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    pointer-events: none;
+    width: 90%;              /* optional, for multiline text */
+}
+
+
+.titleText{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
+
+
+
+
+
+
+.siteFooter {
+    background-color: #222;       /* dark footer background */
+    color: white;                 /* text color */
+    text-align: center;           /* center the text */
+    padding: 20px 10px;           /* spacing inside the footer */
+    margin-top: 50px;             /* optional spacing from content */
+    border-top: 2px solid #444;   /* optional top border */
+    font-size: 14px;
+}
+
+/* Links inside footer */
+.siteFooter a {
+    color: #f1c40f;               /* yellow links */
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.siteFooter a:hover {
+    text-decoration: underline;   /* hover effect */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* takes all remaining space so footer stays at bottom */
 }
