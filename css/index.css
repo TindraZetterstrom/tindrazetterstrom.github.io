@@ -226,3 +226,9 @@ body {
 main {
     flex: 1; /* takes all remaining space so footer stays at bottom */
 }
+
+
+
+.topicDesc{
+    color: white;
+}
