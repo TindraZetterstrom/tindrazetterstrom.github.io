@@ -1,9 +1,9 @@
-.GameImg{
+/* .GameImg{
     width: 200px;
     height: auto;
-}
+} */
 
-.navBar{
+/* .navBar{
     height: 70px;
     width:200%;
     position: fixed;
@@ -15,8 +15,157 @@
     position:fixed;
     top: -1%;
     color: white;
+} */
+
+.navBar {
+    position: fixed;   /* keeps it at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1000;     /* puts it ABOVE the banner */
 }
+
+.navBarText {
+    position: fixed;
+    top: 0px;
+    left: 20px;
+    color: white;
+    z-index: 1001;     /* above navbar image */
+}
+
 
 .aboutText{
     margin-top: 100px;
+}
+
+.bodyText{
+    margin-top: 50px;;
+}
+
+
+.homeBanner{
+    height: 850px;
+    width: 150%;
+    display: block;
+    position: relative;
+    top: 0;
+    left: -10%;
+    z-index: 1;
+}
+
+.divider{
+    height: 50px;
+    width: 150%;
+    position: relative;   
+    left: -10%;
+}
+
+
+
+
+
+
+/* 
+.gameCard{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.GameImg{
+    width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.gameCard:Hover .GameImg{
+    transform: scale(1.2);
+}
+
+.gameInfo{
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    transform: translateY(-50%);
+    width:180px;
+
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+
+    opacity:0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, left 0.3s ease;
+}
+
+.gameCard:hover .gameInfo{
+    opacity:1;
+    left:120%;
+    z-index: 2;
+} */
+
+
+
+
+.gameCard{
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.GameImg{
+    width: 180px;
+    transition: transform 0.3s ease;
+}
+
+.gameCard:Hover .GameImg{
+    transform: scale(1.3);
+}
+
+.gameInfo{
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    transform: translateY(-50%);
+    width:250px;
+
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+
+    opacity:0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, left 0.3s ease;
+}
+
+.gameCard:hover .gameInfo{
+    opacity:1;
+    left:120%;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+.gameImgCollection{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 300px;
+    margin-top: 35px;
+}
+
+
+
+.gameDivider{
+    height: 50px;
+    width: 150%;
+    position: relative;   
+    left: -10%;
+    margin-top: 35px;
 }
