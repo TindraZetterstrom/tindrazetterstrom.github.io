@@ -2,3 +2,21 @@
     width: 200px;
     height: auto;
 }
+
+.navBar{
+    height: 70px;
+    width:200%;
+    position: fixed;
+    top: 0%;
+    left: -10%;
+}
+
+.navBarText{
+    position:fixed;
+    top: -1%;
+    color: white;
+}
+
+.aboutText{
+    margin-top: 100px;
+}
