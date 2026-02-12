@@ -2,7 +2,7 @@ possibly remove p4???
 make phone compatible
 
 add
-- games to nav bar
-- spec to nav bar
 
 - contact
+
+- change about me to contact
