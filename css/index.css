@@ -85,11 +85,11 @@
 }
 
 .spiteDivider {
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 1920px;
     position: relative;
     z-index: 2;
-    margin-top: -80px; /* adjust overlap here */
+    margin-top: -205px; /* adjust overlap here */
 }
 
 
