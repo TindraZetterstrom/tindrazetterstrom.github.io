@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Viking";
+    src: url("../font/CaesarDressing-Regular.ttf") format("truetype");
+}
+
 
 .navBar {
     position: fixed;   /* keeps it at the top */
@@ -89,7 +94,7 @@
     width: 1920px;
     position: relative;
     z-index: 2;
-    margin-top: -205px; /* adjust overlap here */
+    margin-top: -262px; /* adjust overlap here */
 }
 
 
@@ -323,4 +328,51 @@ main {
     height: 55px;
     width: auto;
     padding-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+.dividerWrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.spiteDivider {
+    display: block;
+    width: 100%;
+}
+
+.dividerText {
+    font-family: "Viking", sans-serif;
+    position: absolute;
+    top: 29%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+    color: black;
+    font-size: 37px;
+    text-align:left;
+    width: 70%;
+
+    z-index: 2; /* VERY IMPORTANT */
+}
+
+
+.spiteScreenshot {
+    height: 350px;
+    width: auto;
+
+    position: absolute;
+    top: 34%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+
+    z-index: 2;
 }
