@@ -78,15 +78,30 @@ main {
 }
 
 /* ── Beer down image ── */
+/* .beerDown {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-height: 0;
+    margin-top: -400px;
+    z-index: 1;
+    margin-bottom: 0;
+    position: relative;
+} */
+
 .beerDown {
     flex: 1;
     display: flex;
     justify-content: center;
     min-height: 0;
     margin-top: -400px;
-    z-index: 0;
+    z-index: 1;
     margin-bottom: 0;
     position: relative;
+    background-image: url("../img/SpiteBackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .beerDownPic {
@@ -241,5 +256,9 @@ main {
 .beerOverflowPic {
     display: block;
     width: 1250px;
-    height: 100px;
+    height: auto;
 }
+
+/* .spiteBackground123{
+    z-index: 0;
+} */
