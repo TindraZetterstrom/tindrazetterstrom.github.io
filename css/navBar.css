@@ -1,0 +1,60 @@
+
+.navBar {
+    position: fixed;   /* keeps it at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1000;     /* puts it ABOVE the banner */
+}
+
+.navBarText {
+    position: fixed;
+    top: 0px;
+    left: 20px;
+    color: white;
+    z-index: 1001;
+}
+
+.navBarAboutText {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    color: white;
+    z-index: 1001;
+    font-size: xx-small;
+}
+
+.navBarSpecText {
+    position: fixed;
+    top: 15px;
+    right: 110px;
+    color: white;
+    z-index: 1001;
+    font-size: xx-small;
+}
+
+
+.navBarGamesText {
+    position: fixed;
+    top: 15px;
+    right: 160px;
+    color: white;
+    z-index: 1001;
+    font-size: xx-small;
+}
+
+.navBarLogoText {
+    position: fixed;
+    top: 15px;
+    right: 220px;
+    color: white;
+    z-index: 1001;
+    font-size: xx-small;
+}
+
+.homeLogo {
+    height: 55px;
+    width: auto;
+    padding-top: 7px;
+}

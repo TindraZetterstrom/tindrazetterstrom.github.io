@@ -1,0 +1,36 @@
+
+/*.siteFooter {
+    /*background-color: #222;    */   /* dark footer background */
+  /*  color: white;                 /* text color */
+   /* text-align: center;           /* center the text */
+   /* padding: 20px 10px;          /* spacing inside the footer */
+   /* margin-top: 50px;             /* optional spacing from content */
+    /* border-top: 2px solid #444;   /* optional top border */
+    /* font-size: 14px; */
+
+/*}*/
+
+.siteFooter {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 0; /* was 50px — that was the gap */
+    border-top: 2px solid #444;
+    font-size: 14px;
+}
+
+
+/* Links inside footer */
+.siteFooter a {
+    color: #f1c40f;               /* yellow links */
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.siteFooter a:hover {
+    text-decoration: underline;   /* hover effect */
+}
+
+
+
