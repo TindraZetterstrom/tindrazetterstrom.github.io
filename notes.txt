@@ -1,4 +1,5 @@
 possibly remove p4???
+remove p7 for now???
 make phone compatible
 
 add
