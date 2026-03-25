@@ -199,13 +199,17 @@
 
 
         .name{
-            font-size: 10vw;
+            /* font-size: 10vw; */
+            font-size: 15vw;
+
             white-space: normal;
         }
 
 
     .sub{
-        font-size: 5vw;
+        /* font-size: 5vw; */
+        font-size: 10vw;
+
         white-space: normal;
         margin-top: -2em;
 
