@@ -69,37 +69,77 @@
 .navHome{
     position: fixed;
     top: -5px;
-    right: 450px;
+    right: 275px;
     color: white;
     z-index: 1001;
     font-size: 25px;
     font-family: "LatoRegular", sans-serif;
 }
+
+.line1{
+    position: fixed;
+    top: -5px;
+    right: 265px;
+    color: white;
+    z-index: 1001;
+    font-size: 25px;
+    font-family: "LatoRegular", sans-serif;
+}
+
+
 
  .navPort{
     position: fixed;
     top: -5px;
-    right: 340px;
+    right: 165px;
     color: white;
     z-index: 1001;
     font-size: 25px;
     font-family: "LatoRegular", sans-serif;
 }
 
-/*.navCV{
+.line2{
     position: fixed;
-    top: 15px;
-    right: 160px;
+    top: -5px;
+    right: 155px;
     color: white;
     z-index: 1001;
-    font-size: xx-small;
+    font-size: 25px;
+    font-family: "LatoRegular", sans-serif;
+}
+
+.navCV{
+    position: fixed;
+    top: -5px;
+    right: 115px;
+    color: white;
+    z-index: 1001;
+    font-size: 25px;
+    font-family: "LatoRegular", sans-serif;
+}
+
+.line3{
+    position: fixed;
+    top: -5px;
+    right: 103px;
+    color: white;
+    z-index: 1001;
+    font-size: 25px;
+    font-family: "LatoRegular", sans-serif;
 }
 
 .navContact{
     position: fixed;
-    top: 15px;
-    right: 160px;
+    top: -5px;
+    right: 10px;
     color: white;
     z-index: 1001;
-    font-size: xx-small;
-} */
+    font-size: 25px;
+    font-family: "LatoRegular", sans-serif;
+}
+
+
+
+
+
+
