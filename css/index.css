@@ -195,6 +195,192 @@
 }
 
 
+
+
+/* .GameTextBox{
+
+}
+
+.GamePics{
+
+}
+
+.DownTheDrainPic{
+    width: 50vw;
+} */
+
+/* .SpitePic{
+    width: 50vw;
+}
+
+.WalterPic{
+    width: 50vw;
+} */
+
+/* flex container for each game */
+/* .gameCard {
+    display: flex;              
+    align-items: center;        
+    gap: 2vw;                  
+    margin-bottom: 2em;         
+    flex-wrap: wrap;           
+}
+
+
+.GameTextBox {
+    flex: 1 1 200px;            
+    font-size: 1.2em;
+}
+
+.GamePics {
+    flex: 1 1 200px;            
+}
+
+
+.DownTheDrainPic,
+.SpitePic,
+.WalterPic {
+    width: 100%;                
+    max-width: 250px;           
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .gameCard {
+        flex-direction: column;  
+        align-items: center;
+        text-align: center;
+    }
+
+    .GamePics img {
+        width: 60%;              
+        max-width: none;
+    }
+}
+ */
+
+
+
+
+
+
+
+/* Container for all games */
+.gamesContainer {
+    display: flex;
+    flex-wrap: wrap;           /* wrap cards if screen is small */
+    gap: 2vw;                  /* space between game cards */
+    justify-content: center;    /* center cards horizontally */
+    padding: 2vw;
+}
+
+/* Each game card */
+.gameCard {
+    display: flex;
+    flex-direction: column;     /* stack image above text */
+    align-items: center;        /* center content horizontally */
+    text-align: center;
+    width: 250px;               /* card width */
+    margin-bottom: 2em;
+    gap: 0.5em;                 /* spacing between image and text */
+}
+
+/* Images */
+.DownTheDrainPic,
+.SpitePic,
+.WalterPic {
+    width: 100%;                /* fills card width */
+    height: auto;
+    max-width: 250px;
+}
+
+
+
+
+.DrainTitle{
+    font-size: 2em;
+    margin-top: -0.3em;
+}
+
+.DrainSum{
+    margin-top: -1.5em;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.SpiteTitle{
+    font-size: 2em;
+    margin-top: -0.3em;
+}
+
+.SpiteSum{
+    margin-top: -1.5em;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.WalterTitle{
+    font-size: 2em;
+    margin-top: -0.3em;
+}
+
+.WalterSum{
+    margin-top: -1.5em;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+
+
+
+/* change sizes */
+@media (max-width: 768px) {
+    .gameCard {
+        width: 80%;            
+    }
+
+    /* .GameTextBox p {
+        font-size: 1.5em;        
+    } */
+
+    .DrainTitle{
+        font-size: 2em;
+        margin-top: -0.3em;
+    }
+
+    .DrainSum{
+        margin-top: -1.5em;
+        font-size: 1.2em;
+    }
+
+    .SpiteTitle{
+        font-size: 2em;
+        margin-top: -0.3em;
+    }
+
+    .SpiteSum{
+        margin-top: -1.5em;
+        font-size: 1.2em;
+    }
+
+    .WalterTitle{
+        font-size: 2em;
+        margin-top: -0.3em;
+    }
+
+    .WalterSum{
+        margin-top: -1.5em;
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+
+
+
 /* ✅ MOBILE */
 @media (max-width: 768px){
 
@@ -226,3 +412,6 @@
     }
 
 }
+
+
+
