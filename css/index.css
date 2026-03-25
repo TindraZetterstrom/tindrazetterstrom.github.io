@@ -189,7 +189,9 @@
     font-family: "LatoLight", sans-serif;
     font-size: 3vw;
     white-space: nowrap;
-    margin-top: -110px;
+    /* margin-top: -110px; */
+    margin-top: -2em;
+
 }
 
 
@@ -215,6 +217,7 @@
     .sub{
         font-size: 5vw;
         white-space: normal;
+        margin-top: -2em;
 
     }
 
