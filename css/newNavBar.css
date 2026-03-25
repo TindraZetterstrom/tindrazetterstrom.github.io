@@ -79,7 +79,7 @@
 .line1{
     position: fixed;
     top: -5px;
-    right: 265px;
+    right: 262px;
     color: white;
     z-index: 1001;
     font-size: 25px;
@@ -91,7 +91,7 @@
  .navPort{
     position: fixed;
     top: -5px;
-    right: 165px;
+    right: 167px;
     color: white;
     z-index: 1001;
     font-size: 25px;
